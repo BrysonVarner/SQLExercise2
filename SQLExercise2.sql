@@ -35,3 +35,17 @@ Where MiddleInitial IS null AND Title LIKE '%Geek Squad%';
 SELECT * FROM products
 Where StockLevel between 500 AND 1200
 order by Price asc;
+
+-- PRACTICE FOR ME
+
+SELECT * FROM products
+LEFT JOIN Sales ON products.ProductID = sales.ProductID;
+
+SELECT * FROM products
+Left Join Sales ON products.ProductID = sales .ProductID
+where sales.ProductID IS Null;
+
+
+
+ 
+
